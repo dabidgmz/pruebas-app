@@ -36,7 +36,7 @@ class AuthControlle extends Controller
             'status' => 'success',
             'user' => $user,
             'authorisation' => [
-                'token' => $token,  // Ahora debería devolver el token real
+                'token' => $token,
                 'type' => 'bearer',
             ]
         ]);
